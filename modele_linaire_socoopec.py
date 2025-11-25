@@ -34,13 +34,3 @@ if __name__ == "__main__":
     nouvelle_machine = np.array([[28, 0.27]])
     prediction = modele.predict(nouvelle_machine)
     print("Indice de panne prédit :", prediction[0])
-3️⃣ Suivi avec GitHub
-Chaque User Story (ex. 2.7, 2.8) peut avoir une issue GitHub.
-
-Tu peux lier ton commit directement à l’issue :
-
-bash
-Copy code
-git add src/modele_ia.py
-git commit -m "US-2.7: Ajouter modèle de régression linéaire pour prédiction panne"
-git push
